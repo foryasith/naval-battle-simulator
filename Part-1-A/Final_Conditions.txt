@@ -1,0 +1,12 @@
+========================================
+ FINAL BATTLEFIELD CONDITIONS
+ SE1012 Naval Battle Simulator - Part 1A
+========================================
+
+RESULT: Battleship B was SUNK.
+
+Sunk by        : E[29] (type ED - F-class Escort Ships)
+Distance to B  : 247.576 units
+E[29] Position : (179.724, 180.400)
+B   Position   : (5.000, 5.000)
+

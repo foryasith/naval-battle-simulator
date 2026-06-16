@@ -1,0 +1,466 @@
+========================================
+ INITIAL BATTLEFIELD CONDITIONS
+ SE1012 Naval Battle Simulator - Part 1A
+========================================
+
+Canvas Size    : 568 x 568
+Random Seed    : 5
+
+--- BATTLESHIP (B) ---
+Type     : U  (USS Iowa (BB-61))
+Gun      : 50-caliber Mark 7 gun
+Position : (5.000, 5.000)
+Vmin_B   : 0.000 m/s
+Vmax_B   : 2.000 m/s
+Angle    : 0 - 90 degrees
+Max Range: 0.408
+
+--- ESCORT SHIPS (E) ---
+E[0] | Type: EA (1936A-class Destroyer)
+     | Gun : SK C/34 naval gun
+     | Pos : (0.936, 497.379)
+     | Angles  : [52.23, 72.23] deg
+     | Velocity: [42.986, 2.400] m/s
+     | Attack range (annulus): [109.488, 0.569]
+     | Impact power: 0.08
+
+E[1] | Type: EE (Japanese Kaibokan)
+     | Gun : 4.7 inch naval guns
+     | Pos : (544.824, 414.763)
+     | Angles  : [16.77, 86.77] deg
+     | Velocity: [49.826, 50.558] m/s
+     | Attack range (annulus): [28.489, 260.563]
+     | Impact power: 0.04
+
+E[2] | Type: EB (Gabbiano-class Corvette)
+     | Gun : L/47 dual-purpose gun
+     | Pos : (490.931, 234.588)
+     | Angles  : [0.78, 30.78] deg
+     | Velocity: [10.915, 11.959] m/s
+     | Attack range (annulus): [0.331, 12.819]
+     | Impact power: 0.06
+
+E[3] | Type: EB (Gabbiano-class Corvette)
+     | Gun : L/47 dual-purpose gun
+     | Pos : (348.545, 210.614)
+     | Angles  : [22.92, 52.92] deg
+     | Velocity: [20.096, 22.014] m/s
+     | Attack range (annulus): [29.532, 49.401]
+     | Impact power: 0.06
+
+E[4] | Type: EE (Japanese Kaibokan)
+     | Gun : 4.7 inch naval guns
+     | Pos : (489.024, 449.588)
+     | Angles  : [2.66, 72.66] deg
+     | Velocity: [31.207, 32.932] m/s
+     | Attack range (annulus): [9.192, 110.549]
+     | Impact power: 0.04
+
+E[5] | Type: EE (Japanese Kaibokan)
+     | Gun : 4.7 inch naval guns
+     | Pos : (54.274, 302.505)
+     | Angles  : [3.03, 73.03] deg
+     | Velocity: [27.124, 27.954] m/s
+     | Attack range (annulus): [7.909, 79.657]
+     | Impact power: 0.04
+
+E[6] | Type: EC (Matsu-class Destroyer)
+     | Gun : Type 89 dual-purpose gun
+     | Pos : (253.344, 19.449)
+     | Angles  : [5.12, 30.12] deg
+     | Velocity: [23.175, 24.829] m/s
+     | Attack range (annulus): [9.740, 54.558]
+     | Impact power: 0.07
+
+E[7] | Type: EA (1936A-class Destroyer)
+     | Gun : SK C/34 naval gun
+     | Pos : (450.801, 189.882)
+     | Angles  : [58.78, 78.78] deg
+     | Velocity: [13.953, 2.400] m/s
+     | Attack range (annulus): [7.575, 0.521]
+     | Impact power: 0.08
+
+E[8] | Type: EB (Gabbiano-class Corvette)
+     | Gun : L/47 dual-purpose gun
+     | Pos : (465.605, 215.208)
+     | Angles  : [57.89, 87.89] deg
+     | Velocity: [48.513, 49.950] m/s
+     | Attack range (annulus): [17.695, 229.035]
+     | Impact power: 0.06
+
+E[9] | Type: ED (F-class Escort Ships)
+     | Gun : SK C/32 naval gun
+     | Pos : (275.463, 198.636)
+     | Angles  : [21.61, 71.61] deg
+     | Velocity: [42.176, 43.586] m/s
+     | Attack range (annulus): [108.590, 193.651]
+     | Impact power: 0.05
+
+E[10] | Type: ED (F-class Escort Ships)
+     | Gun : SK C/32 naval gun
+     | Pos : (520.330, 435.720)
+     | Angles  : [29.50, 79.50] deg
+     | Velocity: [9.447, 10.165] m/s
+     | Attack range (annulus): [3.260, 10.533]
+     | Impact power: 0.05
+
+E[11] | Type: EE (Japanese Kaibokan)
+     | Gun : 4.7 inch naval guns
+     | Pos : (227.706, 322.595)
+     | Angles  : [19.28, 89.28] deg
+     | Velocity: [16.526, 17.670] m/s
+     | Attack range (annulus): [0.698, 31.827]
+     | Impact power: 0.04
+
+E[12] | Type: EA (1936A-class Destroyer)
+     | Gun : SK C/34 naval gun
+     | Pos : (265.322, 11.007)
+     | Angles  : [69.15, 89.15] deg
+     | Velocity: [43.516, 2.400] m/s
+     | Attack range (annulus): [5.743, 0.391]
+     | Impact power: 0.08
+
+E[13] | Type: EA (1936A-class Destroyer)
+     | Gun : SK C/34 naval gun
+     | Pos : (225.037, 542.137)
+     | Angles  : [13.85, 33.85] deg
+     | Velocity: [20.464, 2.400] m/s
+     | Attack range (annulus): [19.840, 0.543]
+     | Impact power: 0.08
+
+E[14] | Type: EE (Japanese Kaibokan)
+     | Gun : 4.7 inch naval guns
+     | Pos : (545.222, 307.514)
+     | Angles  : [3.51, 73.51] deg
+     | Velocity: [42.471, 43.412] m/s
+     | Attack range (annulus): [22.482, 192.110]
+     | Impact power: 0.04
+
+E[15] | Type: ED (F-class Escort Ships)
+     | Gun : SK C/32 naval gun
+     | Pos : (236.027, 336.966)
+     | Angles  : [30.11, 80.11] deg
+     | Velocity: [8.550, 9.554] m/s
+     | Attack range (annulus): [2.523, 9.305]
+     | Impact power: 0.05
+
+E[16] | Type: ED (F-class Escort Ships)
+     | Gun : SK C/32 naval gun
+     | Pos : (455.620, 178.840)
+     | Angles  : [23.29, 73.29] deg
+     | Velocity: [22.249, 23.427] m/s
+     | Attack range (annulus): [27.793, 55.948]
+     | Impact power: 0.05
+
+E[17] | Type: EA (1936A-class Destroyer)
+     | Gun : SK C/34 naval gun
+     | Pos : (75.700, 544.044)
+     | Angles  : [17.79, 37.79] deg
+     | Velocity: [45.199, 2.400] m/s
+     | Attack range (annulus): [121.149, 0.569]
+     | Impact power: 0.08
+
+E[18] | Type: ED (F-class Escort Ships)
+     | Gun : SK C/32 naval gun
+     | Pos : (363.678, 316.771)
+     | Angles  : [23.30, 73.30] deg
+     | Velocity: [22.226, 22.743] m/s
+     | Attack range (annulus): [27.723, 52.725]
+     | Impact power: 0.05
+
+E[19] | Type: EE (Japanese Kaibokan)
+     | Gun : 4.7 inch naval guns
+     | Pos : (361.130, 530.939)
+     | Angles  : [13.46, 83.46] deg
+     | Velocity: [42.576, 44.480] m/s
+     | Attack range (annulus): [41.803, 201.676]
+     | Impact power: 0.04
+
+E[20] | Type: EA (1936A-class Destroyer)
+     | Gun : SK C/34 naval gun
+     | Pos : (341.351, 514.540)
+     | Angles  : [54.87, 74.87] deg
+     | Velocity: [40.595, 2.400] m/s
+     | Attack range (annulus): [84.640, 0.553]
+     | Impact power: 0.08
+
+E[21] | Type: EB (Gabbiano-class Corvette)
+     | Gun : L/47 dual-purpose gun
+     | Pos : (295.831, 335.770)
+     | Angles  : [43.62, 73.62] deg
+     | Velocity: [34.080, 34.887] m/s
+     | Attack range (annulus): [64.071, 124.068]
+     | Impact power: 0.06
+
+E[22] | Type: EC (Matsu-class Destroyer)
+     | Gun : Type 89 dual-purpose gun
+     | Pos : (210.753, 257.799)
+     | Angles  : [51.08, 76.08] deg
+     | Velocity: [38.711, 40.129] m/s
+     | Attack range (annulus): [71.328, 160.466]
+     | Impact power: 0.07
+
+E[23] | Type: EB (Gabbiano-class Corvette)
+     | Gun : L/47 dual-purpose gun
+     | Pos : (177.089, 78.300)
+     | Angles  : [33.17, 63.17] deg
+     | Velocity: [17.591, 18.138] m/s
+     | Attack range (annulus): [25.406, 33.536]
+     | Impact power: 0.06
+
+E[24] | Type: EB (Gabbiano-class Corvette)
+     | Gun : L/47 dual-purpose gun
+     | Pos : (302.054, 341.646)
+     | Angles  : [9.80, 39.80] deg
+     | Velocity: [26.332, 26.844] m/s
+     | Attack range (annulus): [23.706, 72.249]
+     | Impact power: 0.06
+
+E[25] | Type: EB (Gabbiano-class Corvette)
+     | Gun : L/47 dual-purpose gun
+     | Pos : (10.210, 351.215)
+     | Angles  : [21.56, 51.56] deg
+     | Velocity: [31.618, 33.601] m/s
+     | Attack range (annulus): [69.649, 115.092]
+     | Impact power: 0.06
+
+E[26] | Type: ED (F-class Escort Ships)
+     | Gun : SK C/32 naval gun
+     | Pos : (379.470, 531.286)
+     | Angles  : [33.76, 83.76] deg
+     | Velocity: [25.637, 27.471] m/s
+     | Attack range (annulus): [14.482, 76.927]
+     | Impact power: 0.05
+
+E[27] | Type: EB (Gabbiano-class Corvette)
+     | Gun : L/47 dual-purpose gun
+     | Pos : (42.851, 323.739)
+     | Angles  : [41.78, 71.78] deg
+     | Velocity: [32.463, 33.667] m/s
+     | Attack range (annulus): [63.811, 115.544]
+     | Impact power: 0.06
+
+E[28] | Type: EC (Matsu-class Destroyer)
+     | Gun : Type 89 dual-purpose gun
+     | Pos : (435.183, 373.957)
+     | Angles  : [4.08, 29.08] deg
+     | Velocity: [11.023, 11.635] m/s
+     | Attack range (annulus): [1.759, 11.724]
+     | Impact power: 0.07
+
+E[29] | Type: ED (F-class Escort Ships)
+     | Gun : SK C/32 naval gun
+     | Pos : (179.724, 180.400)
+     | Angles  : [31.20, 81.20] deg
+     | Velocity: [49.992, 50.546] m/s
+     | Attack range (annulus): [77.023, 260.441]
+     | Impact power: 0.05
+
+E[30] | Type: EB (Gabbiano-class Corvette)
+     | Gun : L/47 dual-purpose gun
+     | Pos : (520.070, 328.056)
+     | Angles  : [56.72, 86.72] deg
+     | Velocity: [31.115, 32.265] m/s
+     | Attack range (annulus): [11.279, 97.365]
+     | Impact power: 0.06
+
+E[31] | Type: EC (Matsu-class Destroyer)
+     | Gun : Type 89 dual-purpose gun
+     | Pos : (103.816, 402.715)
+     | Angles  : [55.88, 80.88] deg
+     | Velocity: [42.456, 43.717] m/s
+     | Attack range (annulus): [57.530, 180.942]
+     | Impact power: 0.07
+
+E[32] | Type: EC (Matsu-class Destroyer)
+     | Gun : Type 89 dual-purpose gun
+     | Pos : (13.365, 191.026)
+     | Angles  : [22.60, 47.60] deg
+     | Velocity: [44.632, 45.542] m/s
+     | Attack range (annulus): [144.094, 211.427]
+     | Impact power: 0.07
+
+E[33] | Type: EC (Matsu-class Destroyer)
+     | Gun : Type 89 dual-purpose gun
+     | Pos : (370.439, 403.894)
+     | Angles  : [21.87, 46.87] deg
+     | Velocity: [9.800, 11.477] m/s
+     | Attack range (annulus): [6.768, 13.427]
+     | Impact power: 0.07
+
+E[34] | Type: EB (Gabbiano-class Corvette)
+     | Gun : L/47 dual-purpose gun
+     | Pos : (128.414, 315.263)
+     | Angles  : [52.33, 82.33] deg
+     | Velocity: [47.808, 48.573] m/s
+     | Attack range (annulus): [61.655, 232.674]
+     | Impact power: 0.06
+
+E[35] | Type: ED (F-class Escort Ships)
+     | Gun : SK C/32 naval gun
+     | Pos : (267.402, 49.334)
+     | Angles  : [24.14, 74.14] deg
+     | Velocity: [9.672, 10.397] m/s
+     | Attack range (annulus): [5.013, 11.019]
+     | Impact power: 0.05
+
+E[36] | Type: EE (Japanese Kaibokan)
+     | Gun : 4.7 inch naval guns
+     | Pos : (477.653, 197.943)
+     | Angles  : [5.46, 75.46] deg
+     | Velocity: [13.811, 14.949] m/s
+     | Attack range (annulus): [3.684, 22.782]
+     | Impact power: 0.04
+
+E[37] | Type: EB (Gabbiano-class Corvette)
+     | Gun : L/47 dual-purpose gun
+     | Pos : (446.728, 494.606)
+     | Angles  : [4.50, 34.50] deg
+     | Velocity: [12.862, 13.751] m/s
+     | Attack range (annulus): [2.641, 17.997]
+     | Impact power: 0.06
+
+E[38] | Type: EB (Gabbiano-class Corvette)
+     | Gun : L/47 dual-purpose gun
+     | Pos : (116.228, 107.353)
+     | Angles  : [58.57, 88.57] deg
+     | Velocity: [42.127, 43.271] m/s
+     | Attack range (annulus): [9.027, 169.850]
+     | Impact power: 0.06
+
+E[39] | Type: EA (1936A-class Destroyer)
+     | Gun : SK C/34 naval gun
+     | Pos : (440.851, 489.405)
+     | Angles  : [26.15, 46.15] deg
+     | Velocity: [7.376, 2.400] m/s
+     | Attack range (annulus): [4.388, 0.587]
+     | Impact power: 0.08
+
+E[40] | Type: ED (F-class Escort Ships)
+     | Gun : SK C/32 naval gun
+     | Pos : (350.157, 135.383)
+     | Angles  : [38.52, 88.52] deg
+     | Velocity: [46.704, 47.481] m/s
+     | Attack range (annulus): [11.450, 229.814]
+     | Impact power: 0.05
+
+E[41] | Type: EE (Japanese Kaibokan)
+     | Gun : 4.7 inch naval guns
+     | Pos : (56.250, 204.998)
+     | Angles  : [4.23, 74.23] deg
+     | Velocity: [11.493, 12.420] m/s
+     | Attack range (annulus): [1.979, 15.724]
+     | Impact power: 0.04
+
+E[42] | Type: EA (1936A-class Destroyer)
+     | Gun : SK C/34 naval gun
+     | Pos : (352.515, 48.831)
+     | Angles  : [27.14, 47.14] deg
+     | Velocity: [26.918, 2.400] m/s
+     | Attack range (annulus): [59.967, 0.587]
+     | Impact power: 0.08
+
+E[43] | Type: EA (1936A-class Destroyer)
+     | Gun : SK C/34 naval gun
+     | Pos : (537.283, 379.088)
+     | Angles  : [56.94, 76.94] deg
+     | Velocity: [35.445, 2.400] m/s
+     | Attack range (annulus): [56.372, 0.537]
+     | Impact power: 0.08
+
+E[44] | Type: EB (Gabbiano-class Corvette)
+     | Gun : L/47 dual-purpose gun
+     | Pos : (264.213, 501.661)
+     | Angles  : [40.09, 70.09] deg
+     | Velocity: [16.717, 17.570] m/s
+     | Attack range (annulus): [18.244, 31.468]
+     | Impact power: 0.06
+
+E[45] | Type: EE (Japanese Kaibokan)
+     | Gun : 4.7 inch naval guns
+     | Pos : (341.490, 267.437)
+     | Angles  : [17.56, 87.56] deg
+     | Velocity: [38.887, 39.956] m/s
+     | Attack range (annulus): [13.098, 162.742]
+     | Impact power: 0.04
+
+E[46] | Type: EA (1936A-class Destroyer)
+     | Gun : SK C/34 naval gun
+     | Pos : (182.532, 432.877)
+     | Angles  : [34.72, 54.72] deg
+     | Velocity: [9.873, 2.400] m/s
+     | Attack range (annulus): [9.303, 0.587]
+     | Impact power: 0.08
+
+E[47] | Type: EE (Japanese Kaibokan)
+     | Gun : 4.7 inch naval guns
+     | Pos : (160.119, 537.509)
+     | Angles  : [8.06, 78.06] deg
+     | Velocity: [23.738, 24.932] m/s
+     | Attack range (annulus): [15.947, 63.364]
+     | Impact power: 0.04
+
+E[48] | Type: ED (F-class Escort Ships)
+     | Gun : SK C/32 naval gun
+     | Pos : (559.575, 64.224)
+     | Angles  : [8.09, 58.09] deg
+     | Velocity: [31.503, 32.301] m/s
+     | Attack range (annulus): [28.193, 106.358]
+     | Impact power: 0.05
+
+E[49] | Type: EE (Japanese Kaibokan)
+     | Gun : 4.7 inch naval guns
+     | Pos : (75.630, 164.141)
+     | Angles  : [3.28, 73.28] deg
+     | Velocity: [18.820, 20.656] m/s
+     | Attack range (annulus): [4.120, 43.493]
+     | Impact power: 0.04
+
+E[50] | Type: ED (F-class Escort Ships)
+     | Gun : SK C/32 naval gun
+     | Pos : (292.485, 377.702)
+     | Angles  : [4.54, 54.54] deg
+     | Velocity: [42.742, 44.289] m/s
+     | Attack range (annulus): [29.373, 199.949]
+     | Impact power: 0.05
+
+E[51] | Type: EA (1936A-class Destroyer)
+     | Gun : SK C/34 naval gun
+     | Pos : (152.717, 434.767)
+     | Angles  : [16.95, 36.95] deg
+     | Velocity: [30.177, 2.400] m/s
+     | Attack range (annulus): [51.780, 0.564]
+     | Impact power: 0.08
+
+E[52] | Type: EB (Gabbiano-class Corvette)
+     | Gun : L/47 dual-purpose gun
+     | Pos : (188.409, 380.631)
+     | Angles  : [53.43, 83.43] deg
+     | Velocity: [32.557, 34.049] m/s
+     | Attack range (annulus): [24.563, 113.096]
+     | Impact power: 0.06
+
+E[53] | Type: EA (1936A-class Destroyer)
+     | Gun : SK C/34 naval gun
+     | Pos : (133.510, 390.443)
+     | Angles  : [46.01, 66.01] deg
+     | Velocity: [10.150, 2.400] m/s
+     | Attack range (annulus): [7.803, 0.587]
+     | Impact power: 0.08
+
+E[54] | Type: EB (Gabbiano-class Corvette)
+     | Gun : L/47 dual-purpose gun
+     | Pos : (178.268, 79.860)
+     | Angles  : [17.55, 47.55] deg
+     | Velocity: [12.189, 13.812] m/s
+     | Attack range (annulus): [8.709, 19.447]
+     | Impact power: 0.06
+
+E[55] | Type: ED (F-class Escort Ships)
+     | Gun : SK C/32 naval gun
+     | Pos : (174.645, 213.631)
+     | Angles  : [36.40, 86.40] deg
+     | Velocity: [34.554, 35.088] m/s
+     | Attack range (annulus): [15.265, 125.499]
+     | Impact power: 0.05
+
